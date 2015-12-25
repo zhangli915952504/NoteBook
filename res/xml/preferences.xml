@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="主界面相关元素的设置" >
+        <EditTextPreference
+            android:defaultValue="15"
+            android:key="title_editText_font_size"
+            android:summary="15"
+            android:title="标题字体" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

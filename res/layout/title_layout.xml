@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@android:color/holo_blue_bright"
+    android:id="@+id/title_layout_xml"
+    tools:targetApi="14" >
+
+    <ImageView
+        android:id="@+id/back_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="10dip"
+        android:paddingLeft="3dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/title_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="记事本"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/title_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="10dip"
+        android:src="@drawable/more" />
+
+</RelativeLayout>
